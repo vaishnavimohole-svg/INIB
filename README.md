@@ -1,6 +1,6 @@
 # Student Gradebook System
 
-## About thr Project
+## About the Project
 
 Student Gradebook System is a Java-based application developed to manage student information and academic grades.
 
