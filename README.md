@@ -1,56 +1,48 @@
-# Student Gradebook System
+# Task 2 - Number Guessing Game
 
-## About the Project
+## Project Description
 
-Student Gradebook System is a Java-based application developed to manage student information and academic grades.
+The Number Guessing Game is a console-based Java application.
 
-## Features
+The program generates a random number between 1 and 100. The player gets a limited number of attempts to guess the correct number.
 
--Add student records
--View all students
--Search students by ID 
--Edit student records
--Remove student reocrds
--Enter subject marks
--Calculate average marks
--Calculate grades
--Generate grade reports
--Calculate class reports
--Input validation
+The program provides feedback if the guess is too high or too low and also provides an option to play the game again.
+
+## Objectives
+
+- Generate a random number.
+- Take input from the user.
+- Provide high and low feedback.
+- Limit the number of attempts.
+- Display a winning message.
+- Provide a replay option.
 
 ## Technologies Used
 
--Java
--Object-Oriented Programming
--ArrayList
--Scanner
--Git & GitHub
+- Java
+- Random class
+- Scanner class
 
-## Subjects
+## Features
 
-The project currently manages marks for:
+- Random number generation
+- User input
+- Limited attempts
+- Too high / too low feedback
+- Winning condition
+- Game over condition
+- Replay option
 
--Mathematics
--Science
--Computer
+## How the Game Works
 
-## Grading System
+1. The computer generates a random number between 1 and 100.
+2. The player gets 7 attempts.
+3. The player enters a guess.
+4. The program tells the player whether the guess is too high or too low.
+5. If the player guesses correctly, the player wins.
+6. If all attempts are used, the correct number is displayed.
+7. The player can choose to play again.
 
-| Average| Grade|
-|--------|-------|
-| 90-100 | A+ |
-| 80-89 | A |
-| 70-79 | B |
-| 60-69 | C |
-| 50-59 | D |
-| Below 50 | F |
+## Conclusion
 
-## How to Run
-
-Compile the programs:
-
-javac StudentGradebook
-
-## Internship
-
-This project was developed as part of the Intern Infobyte Java Developer Internship.
+This project demonstrates basic Java programming concepts such as variables, loops, conditional statements, user input, random number generation, and the use of Java classes.
